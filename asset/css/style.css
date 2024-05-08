@@ -75,6 +75,10 @@ input[type="submit"]:hover {
     body {
         padding: 0 20px;
     }
+    #profile-picture-section > img {
+        width: 180;
+        height: 180;
+    }
 }
 
 @media (min-width:426px) and (max-width: 1024px) {
