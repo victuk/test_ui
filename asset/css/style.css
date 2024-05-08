@@ -76,13 +76,17 @@ input[type="submit"]:hover {
         padding: 0 20px;
     }
     #profile-picture-section > img {
-        width: 180;
-        height: 180;
+        width: 180px;
+        height: 180px;
     }
 }
 
 @media (min-width:426px) and (max-width: 1024px) {
     body {
         padding: 0 100px;
+    }
+    #profile-picture-section > img {
+        width: 220px;
+        height: 220px;
     }
 }
