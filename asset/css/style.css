@@ -89,5 +89,6 @@ input[type="submit"]:hover {
     #profile-picture-section > img {
         width: 220px;
         height: 220px;
+        margin-top: -140px;
     }
 }
