@@ -1,0 +1,84 @@
+#profile-picture-section {
+    /* padding: 60px 0; */
+    text-align: center;
+    
+}
+
+#profile-picture-section > img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-top: -180px;
+}
+
+form {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#about-contact-section {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    padding: 40px;
+    margin-top: 200px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+form > div > input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+
+#gender-section {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+form > div > label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0 500px;
+    background-color: rgb(11, 14, 214);
+}
+
+
+input[type="submit"] {
+    background-color: rgb(68, 68, 252);
+    color: white;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(109, 109, 255);
+    cursor: pointer;
+}
+
+@media (max-width:425px) {
+    body {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width:426px) and (max-width: 1024px) {
+    body {
+        padding: 0 100px;
+    }
+}
